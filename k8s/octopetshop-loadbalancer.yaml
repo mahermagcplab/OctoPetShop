@@ -12,5 +12,5 @@ spec:
     - port: 5001
       targetPort: 5001
       name: https-port
-  type: LoadBalancer
+  type: NodePort
   
